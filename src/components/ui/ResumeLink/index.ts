@@ -1,0 +1,1 @@
+export { ResumeLink } from './ResumeLink';
