@@ -17,6 +17,18 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: 'contribly',
+    title: 'Contribly',
+    summary: 'Find open-source issues that fit your skills—and are genuinely worth your time.',
+    description:
+      'GitHub labels only tell part of the story. Contribly checks for comment claims and linked pull requests, looks at repository and maintainer activity, and reads contribution policies. It then matches the remaining issues to your skills, proficiency, and available time, with an evidence-backed verdict for each. Less time investigating dead ends; more time contributing.',
+    stack: ['Next.js', 'TypeScript', 'GitHub API', 'Supabase', 'Zod'],
+    year: null,
+    repo: 'https://github.com/Adii0906/Contriblyy',
+    demo: 'https://contriblyy-xgkj.vercel.app/',
+    image: null,
+  },
+  {
     slug: 'snapshop',
     title: 'SnapShop',
     summary: 'Turns product pamphlets into working online stores.',
@@ -27,18 +39,6 @@ export const projects: Project[] = [
     repo: null, // TODO: GitHub repo URL
     demo: null, // TODO: live demo URL
     image: { src: '/projects/snapshop.png', width: 1914, height: 846 },
-  },
-  {
-    slug: 'hacktoberfest-starter',
-    title: 'Hacktoberfest Starter',
-    summary: 'Find beginner-friendly open-source issues that are actually free to claim.',
-    description:
-      'Searches GitHub issues matched to your skills, checks whether they are already claimed or otherwise unavailable, and ranks the remaining opportunities. Issue matching uses a local Ollama model when available, or Groq; it never claims issues or posts to GitHub for you.',
-    stack: ['Python', 'Streamlit', 'GitHub API', 'Ollama', 'Groq'],
-    year: null,
-    repo: 'https://github.com/Adii0906/hacktoberfest-starter',
-    demo: null,
-    image: { src: '/projects/hacktoberfesst.png', width: 1084, height: 742 },
   },
   {
     slug: 'ml-agent',
